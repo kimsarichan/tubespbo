@@ -7,7 +7,7 @@ class profile  {
 	SimpleDateFormat format = new SimpleDateFormat("dd/mm/yyyy");
 	protected String nama;
 	protected String job;
-	protected school sekolah[]=new array[5] ;
+	protected school sekolah[]=new sekolah[5] ;
 	protected int nsekolah;
 	protected String gender;
 	public adress alamat;
