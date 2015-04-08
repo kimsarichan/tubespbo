@@ -2,7 +2,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 class text {
 	protected String t;
-	protected String comment[]= new array[5];
+	protected String comment[]= new String[5];
 	protected int numberofcomment;
 	protected int like;
 	protected Date tglkirim;
