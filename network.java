@@ -19,4 +19,15 @@ class network  {
 
 	}
 
+	public acount searchakunbycity(String c){
+
+	}
+	public acount searchakunbysekolag(String s){
+
+	}
+	public group searchgroup(){
+
+	}
+	
+
 }

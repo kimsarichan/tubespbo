@@ -17,6 +17,17 @@ class group  {
 		this.description=description;
 		this.tglberdiri=tglberdiri;
 	}
-	public void sendmessage();
-	public void sendnote();
+	public void sendmessage(message m){
+		for (i=0; i<numberofmember;i++ ) {
+			member[i].sendmessage(m);
+		}
+	};
+	public void sendnote(note n){
+		notes[numberofnotes]=n;
+		numberofnotes=numberofnotes+1;
+	};
+	public void addmember(acount m){
+		member[numberofmember]= m;
+		numberofmember=numberofmember+1;
+	}
 }

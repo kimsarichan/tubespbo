@@ -4,7 +4,7 @@ import java.util.Scanner;
 class message  {
 	String m;
 	Date tgl;
-	String pengirim ;
+	acount pengirim ;
 	public message(String m , Date tgl , String pengirim ){
 		this.m=m;
 		this.tgl=tgl;
